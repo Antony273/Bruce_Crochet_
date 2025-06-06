@@ -1,0 +1,63 @@
+/*etiquetas*/
+body{
+    background-color: antiquewhite;
+    margin: 20px;
+}
+img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px 10px 10px 10px;
+    transition: all .5s;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: xx-large;
+}
+h4{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+/*clases*/
+.macarena{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 5px;
+    text-align: center;
+}
+.imagenlogo{
+    width: 1475px;
+    height: 300px;
+    object-fit: cover;
+}
+.productos{
+    border-radius: 10px;
+    background-color: rgb(121, 210, 230);
+}
+.productos:hover{
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.20); 
+}
+.informaciondelproducto{
+    padding: 15px 30px;
+}
+.productos:hover img{
+    transform: scale(1.2);
+}
+.productos figure{
+    overflow: hidden;
+}
+
+.precio{
+    font-size: 18px;
+    font-weight: 900;
+}
